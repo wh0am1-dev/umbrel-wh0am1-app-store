@@ -2,6 +2,7 @@ manifestVersion: 1
 id: samba
 name: Samba
 tagline: Make your storage accessible using Samba
+icon: https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/refs/heads/master/samba/icon.svg
 category: networking
 version: '4.20.2'
 port: 9445
@@ -33,9 +34,9 @@ submission: https://github.com/wh0am1-dev/umbrel-wh0am1-app-store
 repo: https://github.com/dockur/samba
 support: https://github.com/dockur/samba/issues
 gallery:
-  - 1.jpg
-  - 2.jpg
-  - 3.jpg
+  - https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/refs/heads/master/samba/1.jpg
+  - https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/refs/heads/master/samba/2.jpg
+  - https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/refs/heads/master/samba/3.jpg
 releaseNotes: >-
   This update fixes an issue with library version strings in Samba 4.20.3. For more details, visit: https://bugzilla.samba.org/show_bug.cgi?id=15673
 dependencies: []
