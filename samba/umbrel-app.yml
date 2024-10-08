@@ -1,5 +1,5 @@
 manifestVersion: 1
-id: samba
+id: whoami-samba
 name: Samba
 tagline: Make your storage accessible using Samba
 icon: https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/refs/heads/master/samba/icon.svg
