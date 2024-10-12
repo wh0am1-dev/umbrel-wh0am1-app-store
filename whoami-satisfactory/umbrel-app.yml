@@ -17,10 +17,16 @@ gallery: []
 description: >-
   🛠 Run your own Satisfactory dedicated server on your Umbrel.
 
-  🌐 The server will listen on the default port: 7777
+
+  📡 The server will listen on the default port: 7777
+
 
   ✅ Recommended specs:
+
+
   Memory: 12GB minimum, 16GB RAM is recommended for larger saves or to host more than 4 players.
+
+
   Storage: 25GB for the game server itself.
 releaseNotes: >-
   Satisfactory 1.0
