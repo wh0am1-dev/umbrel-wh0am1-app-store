@@ -1,0 +1,27 @@
+manifestVersion: 1
+id: whoami-satisfactory
+name: Satisfactory
+version: '1.1.0'
+tagline: Satisfactory Dedicated Server
+category: Games
+port: 7777
+path: ''
+developer: indifferentbroccoli
+website: https://github.com/indifferentbroccoli/satisfactory-server-docker
+repo: https://github.com/indifferentbroccoli/satisfactory-server-docker
+support: https://github.com/indifferentbroccoli/satisfactory-server-docker/issues
+submitter: wh0am1
+submission: https://github.com/wh0am1-dev/umbrel-wh0am1-app-store
+icon: https://raw.githubusercontent.com/wh0am1-dev/umbrel-wh0am1-app-store/refs/heads/master/img/satisfactory-icon.svg
+gallery: []
+description: >-
+  🛠 Run your own Satisfactory dedicated server on your Umbrel.
+
+  🌐 The server will listen on the default port: 7777
+
+  ✅ Recommended specs:
+  Memory: 12GB minimum, 16GB RAM is recommended for larger saves or to host more than 4 players.
+  Storage: 25GB for the game server itself.
+releaseNotes: >-
+  Satisfactory 1.0
+dependencies: []
