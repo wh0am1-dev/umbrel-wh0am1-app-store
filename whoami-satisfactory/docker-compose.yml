@@ -3,7 +3,6 @@ services:
   satisfactory:
     image: indifferentbroccoli/satisfactory-server-docker
     restart: unless-stopped
-    container_name: satisfactory
     stop_grace_period: 30s
     ports:
       - 7777:7777/udp
