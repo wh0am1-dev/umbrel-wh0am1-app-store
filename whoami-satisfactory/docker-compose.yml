@@ -2,7 +2,7 @@ version: '3.7'
 services:
   satisfactory:
     image: indifferentbroccoli/satisfactory-server-docker
-    restart: unless-stopped
+    restart: on-failure
     stop_grace_period: 30s
     ports:
       - 7777:7777/udp
