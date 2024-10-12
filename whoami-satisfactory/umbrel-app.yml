@@ -15,7 +15,10 @@ submission: https://github.com/wh0am1-dev/umbrel-wh0am1-app-store
 icon: https://raw.githubusercontent.com/wh0am1-dev/umbrel-wh0am1-app-store/refs/heads/master/img/satisfactory-icon.svg
 gallery: []
 description: >-
-  🛠 Run your own Satisfactory dedicated server on your Umbrel.
+  🛠 Run your own Satisfactory dedicated server on your Umbrel
+
+
+  👤 Supports up to 8 players
 
 
   📡 The server will listen on the default port: 7777
@@ -23,9 +26,9 @@ description: >-
 
   ✅ Recommended specs:
 
-  Memory: 12GB minimum, 16GB RAM is recommended.
+  Memory: 12GB minimum, 16GB RAM is recommended
 
-  Storage: 25GB for the game server itself.
+  Storage: 25GB for the game server itself
 releaseNotes: >-
   Satisfactory 1.0
 dependencies: []
