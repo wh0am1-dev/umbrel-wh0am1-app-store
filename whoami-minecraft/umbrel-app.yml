@@ -1,0 +1,37 @@
+manifestVersion: 1
+
+id: whoami-minecraft
+name: Minecraft
+version: '2024.10.1'
+tagline: Minecraft Dedicated Server
+category: Games
+
+path: ''
+port: 25565
+dependencies: []
+
+icon: https://raw.githubusercontent.com/wh0am1-dev/umbrel-wh0am1-app-store/refs/heads/master/img/minecraft-icon.svg
+gallery: []
+description: >-
+  🛠 Run your own Minecraft dedicated server on your Umbrel
+
+
+  👤 Supports up to 8 players
+
+
+  📡 The server will listen on the default port: 25565
+
+
+  ✅ Recommended specs:
+
+  Memory: 1GB minimum, 2GB recommended
+
+  Storage: 200MB for world saves
+releaseNotes: >-
+  Minecraft b1.7.3
+developer: itzg
+website: https://docker-minecraft-server.readthedocs.io
+repo: https://github.com/itzg/docker-minecraft-server
+support: https://github.com/itzg/docker-minecraft-server/issues
+submitter: wh0am1
+submission: https://github.com/wh0am1-dev/umbrel-wh0am1-app-store
