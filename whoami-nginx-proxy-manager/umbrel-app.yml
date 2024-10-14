@@ -4,7 +4,7 @@ id: whoami-nginx-proxy-manager
 name: Nginx Proxy Manager
 version: "2.11.3"
 tagline: Expose your services easily and securely
-category: networking
+category: Networking
 
 path: ''
 port: 4498
