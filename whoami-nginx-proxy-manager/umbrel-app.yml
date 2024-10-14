@@ -12,10 +12,11 @@ dependencies: []
 defaultUsername: "admin@example.com"
 defaultPassword: "changeme"
 
+icon: https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/refs/heads/master/nginx-proxy-manager/icon.svg
 gallery:
-  - 1.jpg
-  - 2.jpg
-  - 3.jpg
+  - https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/refs/heads/master/nginx-proxy-manager/1.jpg
+  - https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/refs/heads/master/nginx-proxy-manager/2.jpg
+  - https://raw.githubusercontent.com/getumbrel/umbrel-apps-gallery/refs/heads/master/nginx-proxy-manager/3.jpg
 description: >-
   Expose your apps to the internet easily and securely.
 
