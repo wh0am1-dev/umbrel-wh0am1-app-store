@@ -1,17 +1,15 @@
 manifestVersion: 1
+
 id: whoami-satisfactory
 name: Satisfactory
 version: '1.1.0'
 tagline: Satisfactory Dedicated Server
 category: Games
-port: 7777
+
 path: ''
-developer: indifferentbroccoli
-website: https://github.com/indifferentbroccoli/satisfactory-server-docker
-repo: https://github.com/indifferentbroccoli/satisfactory-server-docker
-support: https://github.com/indifferentbroccoli/satisfactory-server-docker/issues
-submitter: wh0am1
-submission: https://github.com/wh0am1-dev/umbrel-wh0am1-app-store
+port: 7777
+dependencies: []
+
 icon: https://raw.githubusercontent.com/wh0am1-dev/umbrel-wh0am1-app-store/refs/heads/master/img/satisfactory-icon.svg
 gallery: []
 description: >-
@@ -31,4 +29,9 @@ description: >-
   Storage: 25GB for the game server itself
 releaseNotes: >-
   Satisfactory 1.0 (Toilet Flush)
-dependencies: []
+developer: indifferentbroccoli
+website: https://github.com/indifferentbroccoli/satisfactory-server-docker
+repo: https://github.com/indifferentbroccoli/satisfactory-server-docker
+support: https://github.com/indifferentbroccoli/satisfactory-server-docker/issues
+submitter: wh0am1
+submission: https://github.com/wh0am1-dev/umbrel-wh0am1-app-store
