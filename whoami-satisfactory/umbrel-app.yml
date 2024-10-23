@@ -10,7 +10,7 @@ path: ''
 port: 7878
 dependencies: []
 
-icon: https://raw.githubusercontent.com/wh0am1-dev/umbrel-wh0am1-app-store/refs/heads/master/img/satisfactory-icon.svg
+icon: https://raw.githubusercontent.com/wh0am1-dev/umbrel-wh0am1-app-store/refs/heads/master/img/satisfactory/icon.svg
 gallery: []
 description: >-
   🛠 Run your own Satisfactory dedicated server on your Umbrel

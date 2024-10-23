@@ -10,7 +10,7 @@ path: ''
 port: 25565
 dependencies: []
 
-icon: https://raw.githubusercontent.com/wh0am1-dev/umbrel-wh0am1-app-store/refs/heads/master/img/minecraft-icon.svg
+icon: https://raw.githubusercontent.com/wh0am1-dev/umbrel-wh0am1-app-store/refs/heads/master/img/minecraft/icon.svg
 gallery: []
 description: >-
   🛠 Run your own Minecraft dedicated server on your Umbrel
