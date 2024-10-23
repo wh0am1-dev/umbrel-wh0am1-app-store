@@ -1,0 +1,19 @@
+version: '3.7'
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: whoami-static-web-server_website_1
+      APP_PORT: 80
+
+  website:
+    image: joseluisq/static-web-server:2.33.0-alpine@sha256:8e7fe95b05610e458f889b2b66ea05d79b6f2deecbe34b5369d12222bf817318
+    ports:
+      - 80:80
+    restart: unless-stopped
+    environment:
+      - SERVER_ROOT=/var/public
+      - SERVER_CONFIG_FILE=/etc/config.toml
+    volumes:
+      - ${APP_DATA_DIR}/data/public:/var/public
+      - ${APP_DATA_DIR}/data/config.toml:/etc/config.toml

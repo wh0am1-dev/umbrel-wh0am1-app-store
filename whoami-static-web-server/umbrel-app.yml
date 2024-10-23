@@ -1,0 +1,30 @@
+manifestVersion: 1
+
+id: whoami-static-web-server
+name: Static Web Server
+version: '2.33.0'
+tagline: Static web server
+category: Developer Tools
+
+path: ''
+port: 8000
+dependencies: []
+
+icon: https://raw.githubusercontent.com/wh0am1-dev/umbrel-wh0am1-app-store/refs/heads/master/img/static-web-server/icon.svg
+gallery: []
+description: >-
+  🌐 Run your own static web server on your Umbrel
+
+
+  📂 Files will be served from ~/umbrel/app-data/whoami-static-web-server/data/public
+
+
+  📡 The server will listen on port: 8000
+releaseNotes: >-
+  Static Web Server 2.33.0
+developer: joseluisq
+website: https://static-web-server.net
+repo: https://github.com/static-web-server/static-web-server
+support: https://github.com/static-web-server/static-web-server/issues
+submitter: wh0am1
+submission: https://github.com/wh0am1-dev/umbrel-wh0am1-app-store
