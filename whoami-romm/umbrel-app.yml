@@ -1,0 +1,34 @@
+manifestVersion: 1
+
+id: whoami-romm
+name: RomM
+version: '3.5.1'
+tagline: A beautiful, powerful, self-hosted ROM manager
+category: Games
+
+path: ''
+port: 7007
+dependencies: []
+
+icon: https://raw.githubusercontent.com/wh0am1-dev/umbrel-wh0am1-app-store/refs/heads/master/img/romm/icon.svg
+gallery: []
+description: >-
+  🎮 Your beautiful, powerful, self-hosted rom manager. Scan, enrich, and browse your game collection with a clean and responsive interface. With support for multiple platforms, various naming schemes and custom tags, RomM is a must-have for anyone who plays on emulators.
+
+
+  📂 Your ROMs will be served from
+  
+  ~/umbrel/app-data/whoami-romm/data/romm/library
+
+
+  🛠 You can add your own IGDB & SteamGridDB API keys inside
+  
+  ~/umbrel/app-data/whoami-romm/data/.env
+releaseNotes: >-
+  RomM 3.5.1: https://github.com/rommapp/romm/releases/tag/3.5.1
+developer: rommapp
+website: https://romm.app
+repo: https://github.com/rommapp/romm
+support: https://github.com/rommapp/romm/issues
+submitter: wh0am1
+submission: https://github.com/wh0am1-dev/umbrel-wh0am1-app-store

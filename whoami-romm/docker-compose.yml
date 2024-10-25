@@ -1,0 +1,33 @@
+version: '3.7'
+
+services:
+  romm:
+    image: rommapp/romm:3.5.1@sha256:d3a0cd1d84a3f85f56d4995a2a29f3efd664e2d040bb09fa00be1aded4349ac4
+    restart: unless-stopped
+    env_file:
+      - ${APP_DATA_DIR}/data/.env
+    environment:
+      DB_HOST: romm-db
+      DB_NAME: romm
+      DB_USER: romm-user
+      DB_PASSWD: ${APP_PASSWORD}
+      ROMM_AUTH_SECRET_KEY: ${APP_SEED}
+    volumes:
+      - ${APP_DATA_DIR}/data/romm/resources:/romm/resources
+      - ${APP_DATA_DIR}/data/db/redis:/redis-data
+      - ${APP_DATA_DIR}/data/romm/library:/romm/library
+      - ${APP_DATA_DIR}/data/romm/assets:/romm/assets
+      - ${APP_DATA_DIR}/data/romm/config:/romm/config
+    depends_on:
+      - whoami-romm_romm-db_1
+
+  romm-db:
+    image: mariadb:11.5.2@sha256:4a1de8fa2a929944373d7421105500ff6f889ce90dcb883fbb2fdb070e4d427e
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: ${APP_PASSWORD}
+      MYSQL_DATABASE: romm
+      MYSQL_USER: romm-user
+      MYSQL_PASSWORD: ${APP_PASSWORD}
+    volumes:
+      - ${APP_DATA_DIR}/data/db/mariadb:/var/lib/mysql
