@@ -1,0 +1,36 @@
+manifestVersion: 1
+
+id: whoami-codimd
+name: CodiMD
+version: '2.5.4'
+tagline: Realtime collaborative markdown notes on all platforms
+category: files
+
+path: ''
+port: 1337
+dependencies: []
+
+icon: https://raw.githubusercontent.com/wh0am1-dev/umbrel-wh0am1-app-store/refs/heads/master/img/codimd/icon.svg
+gallery: []
+description: >-
+  📝 Realtime collaborative markdown notes on all platforms
+
+
+  📂 Images will be stored in ~/umbrel/app-data/whoami-codimd/data/uploads
+
+
+  📚 Edit default notes in ~/umbrel/app-data/whoami-codimd/data/docs
+
+
+  🧰 Configuration available in ~/umbrel/app-data/whoami-codimd/data/.env
+
+
+  🔒 To disable new user registration set CMD_ALLOW_EMAIL_REGISTER to false in the config
+releaseNotes: >-
+  https://hackmd.io/@codimd/release-notes/%2F%40codimd%2Fv2_5_4
+developer: hackmdio
+website: https://hackmd.io/c/codimd-documentation
+repo: https://github.com/hackmdio/codimd
+support: https://github.com/hackmdio/codimd/issues
+submitter: wh0am1
+submission: https://github.com/wh0am1-dev/umbrel-wh0am1-app-store

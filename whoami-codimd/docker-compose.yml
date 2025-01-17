@@ -1,0 +1,30 @@
+version: '3'
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: whoami-codimd_app_1
+      APP_PORT: 3000
+
+  database:
+    image: postgres:11.6-alpine@sha256:e98706031f6463887844146c97bec2623559b49d0b1e4d5540f19abe229ddfcb
+    environment:
+      - POSTGRES_USER=codimd
+      - POSTGRES_PASSWORD=${APP_PASSWORD}
+      - POSTGRES_DB=codimd
+    volumes:
+      - ${APP_DATA_DIR}/data/database:/var/lib/postgresql/data
+    restart: unless-stopped
+
+  app:
+    image: nabo.codimd.dev/hackmdio/hackmd:2.5.4
+    env_file:
+      - ./data/.env
+    environment:
+      - CMD_DB_URL=postgres://codimd:${APP_PASSWORD}@database/codimd
+      - CMD_USECDN=false
+    depends_on:
+      - database
+    volumes:
+      - ${APP_DATA_DIR}/data/uploads:/home/hackmd/app/public/uploads
+    restart: unless-stopped
