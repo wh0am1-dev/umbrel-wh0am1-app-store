@@ -22,7 +22,7 @@ services:
       PUID: 1000
       PGID: 1000
     env_file:
-      - ${APP_DATA_DIR}/data/.env
+      - ./data/.env
     volumes:
       - ${APP_DATA_DIR}/data/server-files:/satisfactory
       - ${APP_DATA_DIR}/data/server-data:/home/steam/.config/Epic/FactoryGame/Saved/SaveGames
