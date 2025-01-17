@@ -19,7 +19,7 @@ services:
   app:
     image: nabo.codimd.dev/hackmdio/hackmd:2.5.4
     env_file:
-      - ./data/.env
+      - ${APP_DATA_DIR}/data/.env
     environment:
       - CMD_DB_URL=postgres://codimd:${APP_PASSWORD}@database/codimd
       - CMD_USECDN=false
