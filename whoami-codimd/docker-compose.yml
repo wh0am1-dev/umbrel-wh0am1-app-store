@@ -17,7 +17,7 @@ services:
     restart: unless-stopped
 
   app:
-    image: nabo.codimd.dev/hackmdio/hackmd:2.5.4
+    image: nabo.codimd.dev/hackmdio/hackmd:2.6.1
     env_file:
       - ${APP_DATA_DIR}/data/.env
     environment:

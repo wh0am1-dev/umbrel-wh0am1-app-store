@@ -2,7 +2,7 @@ manifestVersion: 1
 
 id: whoami-codimd
 name: CodiMD
-version: '2.5.4'
+version: '2.6.1'
 tagline: Realtime collaborative markdown notes on all platforms
 category: files
 
@@ -27,7 +27,7 @@ description: >-
 
   🔒 To disable new user registration set CMD_ALLOW_EMAIL_REGISTER to false in the config
 releaseNotes: >-
-  https://hackmd.io/@codimd/release-notes/%2F%40codimd%2Fv2_5_4
+  https://hackmd.io/@codimd/release-notes/%2F%40codimd%2Fv2_6_1
 developer: hackmdio
 website: https://hackmd.io/c/codimd-documentation
 repo: https://github.com/hackmdio/codimd
