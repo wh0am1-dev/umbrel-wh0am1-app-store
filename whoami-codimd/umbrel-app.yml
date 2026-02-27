@@ -2,7 +2,7 @@ manifestVersion: 1
 
 id: whoami-codimd
 name: CodiMD
-version: '2.6.1'
+version: '2.6.1.1'
 tagline: Realtime collaborative markdown notes on all platforms
 category: files
 
