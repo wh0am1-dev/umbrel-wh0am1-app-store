@@ -1,0 +1,30 @@
+version: '3.7'
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: whoami-sillytavern_app_1
+      APP_PORT: 8000
+
+  app:
+    image: ghcr.io/sillytavern/sillytavern:1.16.0@sha256:d435e4c6beeeb259b0ca5e4ea9d409f1d85c994f22ab76e1d2c14f6d77d88dfd
+    restart: unless-stopped
+    user: 1000:1000
+    environment:
+      - NODE_ENV=production
+      - FORCE_COLOR=1
+      - SILLYTAVERN_HEARTBEATINTERVAL=30
+    volumes:
+      - ${APP_DATA_DIR}/data/config:/home/node/app/config
+      - ${APP_DATA_DIR}/data/data:/home/node/app/data
+      - ${APP_DATA_DIR}/data/plugins:/home/node/app/plugins
+      - ${APP_DATA_DIR}/data/extensions:/home/node/app/public/scripts/extensions/third-party
+    healthcheck:
+      test:
+        - CMD
+        - node
+        - src/healthcheck.js
+      interval: 30s
+      timeout: 10s
+      start_period: 20s
+      retries: 3

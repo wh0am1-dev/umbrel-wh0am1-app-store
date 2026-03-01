@@ -1,0 +1,46 @@
+manifestVersion: 1
+
+id: whoami-sillytavern
+name: SillyTavern
+tagline: LLM Frontend for Power Users
+category: ai
+version: '1.16.0'
+
+path: ''
+port: 4141
+dependencies: []
+
+icon: https://raw.githubusercontent.com/wh0am1-dev/umbrel-wh0am1-app-store/refs/heads/master/img/sillytavern/icon.svg
+gallery: []
+description: >-
+  🤖 SillyTavern (or ST for short) is a locally installed user interface that allows you to interact with text generation LLMs, image generation engines, and TTS voice models.
+
+  Our goal is to empower users with as much utility and control over their LLM prompts as possible, embracing the steep learning curve as part of the fun.
+
+
+  🧰 Configuration available in
+
+  ~/umbrel/app-data/whoami-sillytavern/data/config
+
+
+  📂 Data available in
+
+  ~/umbrel/app-data/whoami-sillytavern/data/data
+
+
+  🔌 Plugins available in
+
+  ~/umbrel/app-data/whoami-sillytavern/data/plugins
+
+
+  🧩 Extensions available in
+
+  ~/umbrel/app-data/whoami-sillytavern/data/extensions
+releaseNotes: >-
+  https://github.com/SillyTavern/SillyTavern/releases/tag/1.16.0
+developer: SillyTavern
+website: https://sillytavern.app
+repo: https://github.com/SillyTavern/SillyTavern/
+support: https://github.com/SillyTavern/SillyTavern/issues
+submitter: wh0am1
+submission: https://github.com/wh0am1-dev/umbrel-wh0am1-app-store
