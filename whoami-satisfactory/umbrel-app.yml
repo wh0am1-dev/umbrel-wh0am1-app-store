@@ -2,7 +2,7 @@ manifestVersion: 1
 
 id: whoami-satisfactory
 name: Satisfactory
-version: '1.1.0'
+version: '1.1.5'
 tagline: Satisfactory Dedicated Server
 category: Games
 
@@ -28,7 +28,7 @@ description: >-
 
   Storage: 25GB for the game server itself
 releaseNotes: >-
-  Satisfactory 1.0 (Toilet Flush)
+  Satisfactory 1.1
 developer: indifferentbroccoli
 website: https://github.com/indifferentbroccoli/satisfactory-server-docker
 repo: https://github.com/indifferentbroccoli/satisfactory-server-docker

@@ -9,18 +9,20 @@ services:
   web:
     image: wh0am1dev/umbrel-satisfactory:1.0.0@sha256:4780e3db469c64b630b15f5793472db55ecfa3d5a5b65ec10052b1d2a1699254
     restart: on-failure
-    user: '1000:1000'
+    user: 1000:1000
 
   server:
-    image: indifferentbroccoli/satisfactory-server-docker:v1.1.0@sha256:984558aa669f69a701202f6021368bd8007ff336ad9ec277e25cd6eb2b339102
+    image: indifferentbroccoli/satisfactory-server-docker:v1.1.5@sha256:243dfcd5d2c03be3bc5ac1a428b0ecad0c7d546b868005b69358a11e34f9ca8f
     restart: on-failure
     stop_grace_period: 30s
     ports:
       - 7777:7777/udp
       - 7777:7777/tcp
+      - 7778:7778/tcp
     environment:
       PUID: 1000
       PGID: 1000
+      GENERATE_SETTINGS: true
     env_file:
       - ${APP_DATA_DIR}/data/.env
     volumes:
