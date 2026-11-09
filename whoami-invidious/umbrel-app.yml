@@ -3,6 +3,7 @@ id: whoami-invidious
 category: social
 name: Invidious
 icon: https://raw.githubusercontent.com/wh0am1-dev/umbrel-wh0am1-app-store/refs/heads/master/img/invidious/icon.svg
+gallery: []
 version: "2.20261103.0"
 tagline: Browse YouTube without tracking or ads
 description: >-
