@@ -4,7 +4,7 @@ category: social
 name: Invidious
 icon: https://raw.githubusercontent.com/wh0am1-dev/umbrel-wh0am1-app-store/refs/heads/master/img/invidious/icon.svg
 gallery: []
-version: "2.20261103.0"
+version: "2.20261103.1"
 tagline: Browse YouTube without tracking or ads
 description: >-
   An open source alternative front-end to YouTube
@@ -45,7 +45,7 @@ defaultUsername: ""
 defaultPassword: ""
 torOnly: false
 releaseNotes: >-
-  This release improves channel navigation, playback, subscription exports, and companion proxying.
+  Updates Invidious Companion to fix PO token generation and signature deciphering.
 
 
   Key highlights:
